@@ -47,7 +47,7 @@
     ],
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "uniqCompNum": 25,
+    "uniqCompNum": 26,
     "versionPublish": "5.3.10",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -66,7 +66,7 @@
     "witsec-mailform": false,
     "witsec-white-label": false,
     "site_lang": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
