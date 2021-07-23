@@ -52,8 +52,8 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "chatbutton": {},
-    "favicon": false,
-    "mbrsiteDomain": "ccruyosl1f",
+    "favicon": "@PROJECT_PATH@/assets/images/favs-128x128.png",
+    "mbrsiteDomain": "zclkxhohw3",
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
@@ -66,7 +66,7 @@
     "witsec-mailform": false,
     "witsec-white-label": false,
     "site_lang": false,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
