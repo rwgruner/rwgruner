@@ -33,7 +33,9 @@
         "#bfceff",
         "#d58f76",
         "#6a6a6a",
-        "#a2705e"
+        "#a2705e",
+        "#f2f2f2",
+        "#e1e1e1"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -52,8 +54,8 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "chatbutton": {},
-    "favicon": "@PROJECT_PATH@/assets/images/favbw2.ico",
-    "mbrsiteDomain": "ntlcqxa4nw",
+    "favicon": false,
+    "mbrsiteDomain": "q6sfpg8kw9",
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
@@ -202,7 +204,7 @@
               }
             }
           },
-          "_customHTML": "<section group=\"Images &amp; Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"text\" title=\"Audio URL or filename\" name=\"audioSrc\" value=\"https://web298.lennox.servertools24.de/audio/Andy%20M%20-%20June%20Apple.mp3\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#fafafa\" selected=\"\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure align-center\">\n      <audio controls=\"\">\n        <source src=\"{{ audioSrc }}\" type=\"audio/mpeg\">\n      </audio>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"text\" title=\"Audio URL or filename\" name=\"audioSrc\" value=\"https://web298.lennox.servertools24.de/audio/Andy%20M%20-%20June%20Apple.mp3\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#fafafa\" selected>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure align-center\">\n      <audio controls>\n        <source src=\"{{ audioSrc }}\" type=\"audio/mpeg\">\n      </audio>\n    </figure>\n</section>",
           "_anchor": "design-block-9",
           "_isUserblock": true,
           "_cid": "sDSArTAyVS",
